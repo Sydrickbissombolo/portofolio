@@ -11,46 +11,46 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top"> 
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container flex-lg-column">
             <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
                 <span class="h3 fw-bold d-block d-lg-none">Sydrick Newton</span>
                 <img src="./assets/images/newton.jpg" class="d-none d-lg-block rounded-circle alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#work">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#reviews">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                    
-                </ul>
-            </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#work">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reviews">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
         </div>
     </nav>
 
@@ -63,11 +63,15 @@
         <section id="home" class="full-height px-lg-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8">
-                        <h1 class="display-4 fw-bold">I'M A <span class="text-brand">WEB FRONT-END DEVELOPER</span> FROM BRAZZAVILLE, RC</h1>
-                        <P class="lead mt-2 mb-4">I am Sydrick N. Bissombolo, and I have such a great experience in developping responsive websites</P>
-                        <a href="#work" class="btn btn-brand me-3"> Explore My Work</a>
-                        <a href="#" class="link-custom">Call: (+242) 06 806 98 42</a>
+                    <div class="col-lg-10">
+                        <h1 class="display-4 fw-bold" data-aos="fade-up">I'M A <span class="text-brand">WEB FRONT-END
+                                DEVELOPER</span> FROM BRAZZAVILLE, RC</h1>
+                        <P class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I am Sydrick N. Bissombolo,
+                            and I have such a great experience in developping responsive websites</P>
+                        <div data-aos="fade-up" data-aos-delay="800">
+                            <a href="#work" class="btn btn-brand me-3"> Explore My Work</a>
+                            <a href="#" class="link-custom">Call: (+242) 06 806 98 42</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -78,47 +82,50 @@
         <section id="services" class="full-height px-lg-5">
             <div class="container">
 
-                <div class="row pb-4">
+                <div class="row pb-4" data-aos="fade-up">
                     <div class="col-lg-8">
                         <h6 class="text-brand">SERVICES</h6>
                         <h1>Services That I Provide</h1>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-md-4">
+                <div class="row gy-4">
+                    <div class="col-md-4" data-aos="fade-up">
                         <div class="service p-4 bg-base rounded-5 shadow-effect">
                             <div class="iconbox rounded-4">
                                 <i class="las la-feather"></i>
                             </div>
                             <h5 class="mt-4 mb-2">Web Designing</h5>
-                            <p>I have expanded knowledge in designing websites and making websites more user-friendly, good to see in the eye, and attractive.</p>
+                            <p>I have expanded knowledge in designing websites and making websites more user-friendly,
+                                good to see in the eye, and attractive.</p>
                             <a href="#" class="link-custom">Read More</a>
                         </div>
                     </div>
 
-                    <div class="col-md-4">
-                        <div class="service p-4 bg-base rounded-5 shadow-effect">
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="800">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
                             <div class="iconbox rounded-4">
                                 <i class="las la-laptop-code"></i>
                             </div>
                             <h5 class="mt-4 mb-2">Web Developping</h5>
-                            <p>I have such a great experience in developping responsive websites. A hard worker and capable of working with high pressure.</p>
+                            <p>I have such a great experience in developping responsive websites. A hard worker and
+                                capable of working with high pressure.</p>
                             <a href="#" class="link-custom">Read More</a>
                         </div>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="1000">
                         <div class="service p-4 bg-base rounded-5 shadow-effect">
                             <div class="iconbox rounded-4">
                                 <i class="las la-pencil-ruler"></i>
                             </div>
                             <h5 class="mt-4 mb-2">Home Coaching</h5>
-                            <p>I offer low-cost home coaching in English, leardership, web development, and computer programming. People are always satisfied by my services</p>
+                            <p>I offer low-cost home coaching in English, leardership, web development, and computer
+                                programming. People are always satisfied by my services</p>
                             <a href="#" class="link-custom">Read More</a>
                         </div>
                     </div>
-                    
+
                 </div>
 
             </div>
@@ -126,12 +133,377 @@
         <!-- //SERVICES -->
 
         <!-- WORK -->
-        <section id="work" class="full-height px-lg-5"></section>
+        <section id="work" class="full-height px-lg-5">
+            <div class="container">
 
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">WORK</h6>
+                        <h1>My Recent Projects</h1>
+                    </div>
+                </div>
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-6" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/Project-1.jpg" alt="">
+                                <div class="card-custom-content p-4">
+                                    <h4>Startup Landing Page</h4>
+                                    <p>Innovation that exceed expectations. This is a true project with web development
+                                        and completely responsive. everyone opening up this page will never be deceived
+                                        by the content, everything has been created to be higherly user-friendly.</p>
+                                    <a href="#" class="link-custom">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/Project-2.jpg" alt="">
+                                <div class="card-custom-content p-4">
+                                    <h4>Startup Landing Page</h4>
+                                    <p>Innovation that exceed expectations. This is a true project with web development
+                                        and completely responsive. everyone opening up this page will never be deceived
+                                        by the content, everything has been created to be higherly user-friendly.</p>
+                                    <a href="#" class="link-custom">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/Project-3.jpg" alt="">
+                                <div class="card-custom-content p-4">
+                                    <h4>Startup Landing Page</h4>
+                                    <p>Innovation that exceed expectations. This is a true project with web development
+                                        and completely responsive. everyone opening up this page will never be deceived
+                                        by the content, everything has been created to be higherly user-friendly.</p>
+                                    <a href="#" class="link-custom">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/Project-4.jpg" alt="">
+                                <div class="card-custom-content p-4">
+                                    <h4>Startup Landing Page</h4>
+                                    <p>Innovation that exceed expectations. This is a true project with web development
+                                        and completely responsive. everyone opening up this page will never be deceived
+                                        by the content, everything has been created to be higherly user-friendly.</p>
+                                    <a href="#" class="link-custom">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
         <!-- //WORK -->
 
-    </div>
+        <!-- ABOUT -->
+        <section id="about" class="full-height px-lg-5">
+            <div class="container">
 
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">ABOUT</h6>
+                        <h1>My Education & Experience</h1>
+                    </div>
+                </div>
+
+                <div class="row gy-5">
+                    <div class="col-lg-6">
+
+                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="600">Education</h3>
+                        <div class="row gy-4">
+
+                            <div class="clo-12" data-aos="fade-up" data-aos-delay="1000">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Certificate of Software Engineering</h4>
+                                    <p class="text-brand mb-2">ALX University (2022-2023)</p>
+                                    <p class="mb-0">I learned a lot about software engineering and exceeding the
+                                        requirements. It was a great training.</p>
+                                </div>
+                            </div>
+
+                            <div class="clo-12" data-aos="fade-up" data-aos-delay="1000">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Certificate of Web Design</h4>
+                                    <p class="text-brand mb-2">ALX University (2021-2022)</p>
+                                    <p class="mb-0">I learned a lot about the foundation of web design, how to make a
+                                        website more user-friendly, and exceeding the requirements. It was a great
+                                        training.</p>
+                                </div>
+                            </div>
+
+                            <div class="clo-12" data-aos="fade-up" data-aos-delay="1000">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Certificate of Administrative Assistance</h4>
+                                    <p class="text-brand mb-2">Brazzaville Campus Institute (2020-2022)</p>
+                                    <p class="mb-0">I learned administration, the using of Microsoft Office tools, time
+                                        management, error handling... I also Learned some additional things such as:
+                                        Finance management, personal finance, math for the real world.</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6">
+                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="600">Experience</h3>
+                        <div class="row gy-4">
+
+                            <div class="clo-12" data-aos="fade-up" data-aos-delay="1300">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Application developer</h4>
+                                    <p class="text-brand mb-2">CERS-ISCOM (2022-2023)</p>
+                                    <p class="mb-0">I worked as a software engineering and developping web applications
+                                        and a lot more. It was a great experience.</p>
+                                </div>
+                            </div>
+
+                            <div class="clo-12" data-aos="fade-up" data-aos-delay="1000">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Web Designer</h4>
+                                    <p class="text-brand mb-2">Brazzaville Campus Institute (2019-2021)</p>
+                                    <p class="mb-0">I worked as a web designer; other employees create websites and I
+                                        make sure the sites great in the eye of users and very user-friendly. It was a
+                                        great opportunity.</p>
+                                </div>
+                            </div>
+
+                            <div class="clo-12" data-aos="fade-up" data-aos-delay="1000">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Administrative Assistant</h4>
+                                    <p class="text-brand mb-2"> Brazzaville Campus Institute (2020-2023)</p>
+                                    <p class="mb-0">I worked with Microsoft Office tools like Word, PowerPoint to create
+                                        presentations, Excel to work on the supervisor's weekly report... managing
+                                        finances and making sure every single one of our customers are satisfied.</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- //ABOUT -->
+
+        <!-- REVIEWS -->
+        <section id="reviews" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">REVIEWS</h6>
+                        <h1>What our suscribers say</h1>
+                    </div>
+                </div>
+
+                <div class="row gy-4">
+
+                    <div class="clo-md-4" data-aos="fade-up">
+
+                        <div class="review shadow-effect bg-base p-4 rounded-4">
+                            <div class="text-brand h5">
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                            </div>
+                            <p class="my-3">I really appreciate this portofolio websites, it has such a magnificent
+                                design. I think this guy is made for web development, there's doubt he knows what he
+                                does.</p>
+                            <div class="person">
+                                <h5 class="mb-0">Zidrey Nkounkou</h5>
+                                <p class="mb-0">Twitter</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="clo-md-4" data-aos="fade-up" data-aos-delay="600">
+
+                        <div class="review shadow-effect bg-base p-4 rounded-4">
+                            <div class="text-brand h5">
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                            </div>
+                            <p class="my-3">I really appreciate this portofolio websites, it has such a magnificent
+                                design. I think this guy is made for web development, there's doubt he knows what he
+                                does.</p>
+                            <div class="person">
+                                <h5 class="mb-0">Glorion Outsingoula</h5>
+                                <p class="mb-0">Twitter</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="clo-md-4" data-aos="fade-up" data-aos-delay="900">
+
+                        <div class="review shadow-effect bg-base p-4 rounded-4">
+                            <div class="text-brand h5">
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                                <i class="las la-star"></i>
+                            </div>
+                            <p class="my-3">I really appreciate this portofolio websites, it has such a magnificent
+                                design. I think this guy is made for web development, there's doubt he knows what he
+                                does.</p>
+                            <div class="person">
+                                <h5 class="mb-0">Francy Malonga</h5>
+                                <p class="mb-0">Twitter</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- //REVIEWS -->
+
+        <!-- BLOG -->
+        <section id="blog" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">BLOG</h6>
+                        <h1>My Blog Posts</h1>
+                    </div>
+                </div>
+
+                <div class="row gy-4">
+
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/blog-1.jpg" alt="">
+                                <div class="card-custom-content p-4">
+                                    <p class="text-brand mb-2">18 Jul, 2021</p>
+                                    <h5 class="mb-4">Design a creative landing page with bootstrap 5</h5>
+                                    <a href="#" class="link-custom">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/blog-2.jpeg" alt="">
+                                <div class="card-custom-content p-4">
+                                    <p class="text-brand mb-2">06 sep, 2023</p>
+                                    <h5 class="mb-4">develope a responsive portofolio website with bootstrap 5</h5>
+                                    <a href="#" class="link-custom">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="900">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="card-custom-image rounded-4">
+                                <img class="rounded-4" src="./assets/images/blog-3.jpeg" alt="">
+                                <div class="card-custom-content p-4">
+                                    <p class="text-brand mb-2">14 octobre, 2023</p>
+                                    <h5 class="mb-4">Create a trading website with bootstrap 5</h5>
+                                    <a href="#" class="link-custom">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+        <!-- //BLOG -->
+
+        <!-- CONTACT -->
+        <section id="contact" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-8 pb-4"  data-aos="fade-up">
+                        <h6 class="text-brand">CONTCAT</h6>
+                        <h1>Interested in working with me? Let's have a talk!</h1>
+                    </div>
+
+                    <div class="col-lg-8"  data-aos="fade-up" data-aos-delay="600">
+                        <form action="#" class="row g-lg-3 gy-3">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" placeholder="Enter your full name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="email" class="form-control" placeholder="Enter your email">
+                            </div>
+                            <div class="form-group col-12 d-grid">
+                                <input type="text" class="form-control" placeholder="Enter subject">
+                            </div>
+                            <div class="form-group col-12">
+                                <textarea name="" rows="4" class="form-control" placeholder="Enter your message"></textarea>
+                            </div>
+                            <div class="form-group col-12 d-grid">
+                                <button type="submit" class="btn btn-brand">Contact me</button>
+                            </div>
+                        </form>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+        </section>
+        <!-- //CONTACT -->
+        
+        <!-- FOOOTER -->
+        <footer class="py-5 px-lg-5">
+            <div class="container">
+                <div class="row gy-4 justify-content-between">
+                    <div class="col-auto">
+                        <p class="mb-0">Copyright @ All Rights Reserved</p>
+                    </div>
+                    <div class="col-auto">
+                        <div class="social-links">
+                            <a href="#"><i class="lab la-twitter"></i></a>
+                            <a href="#"><i class="lab la-instagram"></i></a>
+                            <a href="#"><i class="lab la-github"></i></a>
+                            <a href="#"><i class="lab la-facebook"></i></a>
+                            <a href="#"><i class="lab la-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- //FOOOTER -->
+
+    </div>
     <!-- //CONTENT WRAPPER -->
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
