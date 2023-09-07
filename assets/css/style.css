@@ -122,6 +122,24 @@ img {
     font-weight: 700;
 }
 
+.btn-btn2 {
+    padding: 12px 28px;
+    font-weight: 700;
+}
+
+.btn-btn2 {
+    background-color: var(--color-brand);
+    border-color: var(--color-brand);
+    color: var(--color-base);
+}
+
+.btn-btn2:hover,
+.btn-btn2:focus {
+    background-color: var(--color-brand2);
+    color: var(--color-base);
+    border-color: var(--color-brand2);
+}
+
 .btn-brand {
     background-color: var(--color-brand);
     border-color: var(--color-brand);
